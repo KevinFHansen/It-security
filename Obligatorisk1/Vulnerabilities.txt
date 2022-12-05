@@ -3,3 +3,6 @@ I thought that i should control what kind of characters the user is allowed to u
 
 Likewise im telling the script that it should only run the nslookup script if the domains ends on .dk or .com. 
 Those domains I condsider safe and therefore making sure only to ping domains i trust. 
+
+In the code i check the input for my blacklisted chars and if it returns true the script terminates. 
+Otherwise it moves on and i check the domain for my whitelisted domains. 
