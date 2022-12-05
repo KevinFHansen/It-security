@@ -1,0 +1,5 @@
+I have added an array with white listed domains, and i have added a list of blacklisted characters. 
+I thought that i should control what kind of characters the user is allowed to use. I could have added more chars or symbols to the list. 
+
+Likewise im telling the script that it should only run the nslookup script if the domains ends on .dk or .com. 
+Those domains I condsider safe and therefore making sure only to ping domains i trust. 
